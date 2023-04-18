@@ -1,0 +1,127 @@
+header{
+	position: fixed;
+	background:#87CEEB;
+	width: 100vw;
+	height: 12vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section{
+	background: #FFF5EE;
+    height: 100vh;
+    width: 100vw;
+}
+.contenedor{
+    display: flex;
+    grid-gap: 20px;
+    width: 75%;
+    height: 90%;
+    padding: 15px;
+}
+.conte_input{
+	height: 400px;
+	width: 450px;
+	background: #C0C0C0;
+	border-radius: 12px;
+	position:fixed;
+  	top: 130px;
+    left: 10%;
+    display: flex;
+	
+	
+}
+.conte_output{
+	position: absolute;
+	height: 400px;
+	width: 600px;
+	background: #C0C0C0;
+	border-radius: 12px;
+	position:fixed;
+    top: 130px;
+    right: 10%;
+    display: flex;
+
+}
+.mensaje{
+	position: absolute;
+	height: 18px;
+	top: 0px;
+	left: 20px;
+	
+}
+.mensaje_error{
+	position: absolute;
+	height: 18px;
+	top: 79%;
+	left: 25px;
+}
+.dibujo{
+	position:flex;
+	padding: 15px;
+	top: 0px;
+	left: 40px;
+}
+.form-control{
+ 	position: absolute;
+	width: 90%;
+	height: 70%;
+	background: #FFFAFA;
+	border-radius: 12px;
+	top: 34px;
+	left: 20px;
+ }
+.form-control_2{
+	position: relative;
+	width: 90%;
+	height: 70%;
+	background: #FFFAFA;
+	border-radius: 12px;
+	top: 34px;
+	right:  20px;
+	left: 32px;
+	
+}
+ .buttons{
+	height:25px;
+	position: absolute;
+	left:30%;
+	bottom: 40px;
+
+
+ }
+ #btnEncriptar{
+ padding: 12px;
+border-radius: 5px;
+background: gray;
+ }
+ #btnDesencriptar{
+ padding: 12px;
+ border-radius: 5px;
+background: gray;
+ }
+ #btnEncriptar:hover {
+  background:#87CEEB;
+}
+#btnDesencriptar:hover {
+  background: #87CEEB;
+}
+.btnCopiar{
+	 border-radius: 5px;
+	height:25px;
+	position: absolute;
+	left: 40%;
+	bottom: 20px;
+	padding: 20px;
+	background: gray;
+
+}
+#btnCopiar:hover {
+  background: #87CEEB;
+}
+.mensaje2{
+	background: red;
+	width: 30px;
+	height: 12%;
+}

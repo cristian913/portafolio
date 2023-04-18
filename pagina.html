@@ -1,0 +1,50 @@
+
+//echo cristian stiven solano//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<script src="codigos.js"></script>
+	<link rel="stylesheet"  href="estile.css">
+
+</head>
+<body>
+	<header >
+		<h1 >SISTEMA DE INCRIPTACION</h1>
+	</header>
+	   <section>
+        <div class="contenedor">
+            <div class="conte_input">
+            	  <p class="mensaje">
+                     Porfavor ingrese solo letras minusculas y sin acentos
+                </p>
+                <textarea class="form-control" placeholder="Ingrese texto aquí" id="encriptar" required rows="5" cols="50" pattern="[a-z ]*" oninput="this.value = this.value.replace(/[^a-z\n ]/g, '')"></textarea><br>
+                <div class="buttons">
+                <button id="btnEncriptar" onclick="encriptador()">Encriptar</button>
+                <button id="btnDesencriptar" onclick="desencriptador()">Desencriptar</button>
+            </div>   
+            	            
+            </div>
+            
+
+            <div class="conte_output">
+                 <p class="mensaje">
+                    Texto encriptado y desencriptado.si desea copiar hagaa click en el boton copiar.
+                </p>
+                <div class="init">
+                   
+                        <img src="dibujo.svg" class="dibujo" alt="dibujo">
+                    <p  class="mensaje_error">
+                        Ningún mensaje fue encontrado
+                    </p>
+                   
+                </div>
+                <button class="btnCopiar" id="btnCopiar" onclick="copiar()">Copiar</button>
+                <textarea class="form-control_2" readonly name="returnCript" id="returnCript"></textarea>
+            </div>
+        </div>
+        
+    </section>
+//
+</body>
+</html>
